@@ -9602,7 +9602,7 @@ var P;
                 microphone.lastValue = rms;
                 rms *= 1.63;
                 rms = Math.sqrt(rms);
-                rms = Math.round(rms * 100);
+                rms = rms * 100;
                 rms = Math.min(rms, 100);
                 return rms;
             }
