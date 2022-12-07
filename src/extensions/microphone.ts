@@ -143,9 +143,12 @@ namespace P.ext.microphone {
       rms = Math.max(rms, microphone.lastValue * 0.6);
     }
     microphone.lastValue = rms;
-
     rms *= 1.63;
-    rms = Math.sqrt(rms);
+    const element: HTMLInputElement =<HTMLInputElement>document.getElementById("settings-disable-sqrt")!; //hard coding umm
+    if (!element.checked) {
+      rms = Math.sqrt(rms);
+    }
+    
     rms = rms * 100;
     //rms = Math.min(rms, 100);
 

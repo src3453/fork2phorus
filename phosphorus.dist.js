@@ -9601,9 +9601,11 @@ var P;
                 }
                 microphone.lastValue = rms;
                 rms *= 1.63;
-                rms = Math.sqrt(rms);
+                const element = document.getElementById("settings-disable-sqrt");
+                if (!element.checked) {
+                    rms = Math.sqrt(rms);
+                }
                 rms = rms * 100;
-                rms = Math.min(rms, 100);
                 return rms;
             }
             class MicrophoneExtension extends P.ext.Extension {
