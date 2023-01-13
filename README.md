@@ -28,7 +28,7 @@ Forkphorus is written in a mix of "vanilla" JavaScript and TypeScript. Most inte
 
 Unless stated otherwise (there are exceptions), files in this repository are [MIT Licensed](LICENSE).
 
-Parts of forkphorus are based on Sulfurous (https://sulfurous.aau.at/) and Scratch (https://scratch.mit.edu/)
+Parts of fork²phorus are based on Sulfurous (https://sulfurous.aau.at/), Scratch (https://scratch.mit.edu/) and forkphorus(https://github.com/forkphorus/forkphorus)
 
 License for Sulfurous:
 
