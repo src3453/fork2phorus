@@ -1,8 +1,8 @@
-# forkphorus
+# fork²phorus
 
 [forkphorus.github.io](https://forkphorus.github.io)
 
-A JavaScript/TypeScript compiler for Scratch 3, 2, and 1 projects. forkphorus is a *fork* of [phos*phorus*](https://phosphorus.github.io/).
+A JavaScript/TypeScript compiler for Scratch 3, 2, and 1 projects. fork²phorus is a *fork* of *fork* of [phos*phorus*](https://phosphorus.github.io/).
 
 ## Build Steps
 
